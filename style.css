@@ -62,17 +62,18 @@ body{
 .lamp{
   height: 40vh;
   /* width: 100%; */
-  width: 24vh;
+  width: 11vw;
   position: relative;
-  left: 192%;
+  /* left: 192%; */
+  left:24vw;
   top: 0;
 }
 .light{
   height: 45vh;
-  width: 85vh;
+  width: 40vw;
   position: absolute;
-  left: 58.5%;
-  top: 96%;
+  left: 9vw;
+  top: 40vh;
   opacity: 0;
   transition: opacity 0.5s;
   /* position: relative;
@@ -84,10 +85,11 @@ body{
 }
 .text-container{
   color: aliceblue;
-  position: absolute;
-  top: 50%;
-  left: 18%;
-  max-width: 600px;
+  position: relative;
+  top: 50vh;
+  left: 22vw;
+  /* font-size: 1rem; */
+  /* max-width: 600px; */
   font-size: 120%;
   text-shadow: 0px 4px rgb(0, 0, 0);
   opacity: 0;
@@ -103,7 +105,8 @@ button{
   height: 14.2vh;
   position: absolute;
   top: 40vh;
-  right: 40vh;
+  /* right: 40vh; */
+  right: -166vh;
   cursor: pointer;
   outline: 0;
   border: 0;
