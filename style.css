@@ -97,9 +97,10 @@ body{
 }
 button{
   background-color: #efefef;
-  border-radius: 40px;
+  /* border-radius: 40px; */
+  border-radius: 20vh;
   width: 25vh;
-  height: 24.2vh;
+  height: 14.2vh;
   position: absolute;
   top: 40vh;
   right: 40vh;
@@ -114,11 +115,13 @@ button span{
   top: 0;
   display: block;
   border-radius: 50%;
-  height: 68px;
-  width: 68px;
+  /* height: 68px;
+  width: 68px; */
+  height: 14vh;
+  width: 14vh;
   outline: 0;
   border: 0;
-  margin-left: 2px;
+  margin-left: 0.3vh;
   transition: background-color 0.5s, margin-left 0.5s;
 }
 .active{
@@ -126,7 +129,8 @@ button span{
 }
 .active span{
   background: #fff;
-  margin-left: 54px;
+  /* margin-left: 54px; */
+  margin-left: 10.7vh;
 }
 .on, .text{
   opacity: 1;
