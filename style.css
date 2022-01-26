@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  /* standard size = 16px = 100% */
+  /* we need fint size 10px so in percentage given below */
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(21, 27, 34);
+}
+
+.container{
+  max-width: 1200px;
+  width: 70%;
+  margin: auto;
+}
+
+
+.navbar input[type='checkbox'],
+.navbar .hamburger-lines{
+  display: none;
+}
+
+.navbar{
+  box-shadow: 0px 5px 10px 0px #aaa; 
+  /* x y blur spread color */
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  opacity: 0.80;
+  z-index: 999;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.menu-items{
+  order:2;
+  display: flex;
+}
+.logo{
+  order: 1;
+  font-size: 2rem;
+  color: rgb(6, 32, 84);
+}
+.menu-items li{
+  list-style: none;
+  font-size: 1.2rem;
+  margin-left: 2.5rem;
+}
+
+.navbar a{
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.4s ease-in-out;
+}
+.navbar a:hover{
+  color: teal;
+}
+
+
+
+
+
+#showcase{
+  /* height: 60vh;
+  background: url('./header-image2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+.showcase-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  height: 100%;
+}
+
+.lamp-container{
+  height: 30vh;
+  box-sizing: border-box;
+  max-width: 2000px;
+  width: 70%;
+  /* margin: auto; */
+}
+.lamp-container img{
+ 
+}
+.lamp-container .lamp{
+  top: 0;
+  margin-left: 22%;
+  height: 135%;
+}
+.lamp-container .light{
+  margin-left: -50.9vh;
+  margin-bottom: -46vh;
+  height: 154%;
+  max-width: 800px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.lamp-heading{
+  margin-left: 55vw;
+  margin-right: 5vw;
+  font-size: 4rem;
+  color: tan;
+}
+button{
+  background-color: #efefef;
+  border-radius: 20vh;
+  width: 25vh;
+  height: 9.2vh;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: background-color 0.5s;
+  margin-left: 55vw;
+  margin-top: 5vh;
+}
+button span{
+  background-color: rgb(94, 91, 91);
+  display: block;
+  border-radius: 50%;
+  height: 8vh;
+  width: 8vh;
+  outline: 0;
+  border: 0;
+  margin-left: 1vh;
+  transition: background-color 0.5s, margin-left 0.5s;
+}
+.active{
+  background-color: rgb(230, 179, 10);
+}
+.active span{
+  background: #fff;
+  /* margin-left: 54px; */
+  margin-left: 15.7vh;
+}
+.lamp-container .on{
+  opacity: 1;
+}
