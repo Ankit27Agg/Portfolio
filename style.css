@@ -383,4 +383,6 @@ input[type='submit']:hover{
 }
 .success{
   color: green;
+  width: 40%;
+  margin: auto;
 }

@@ -48,7 +48,7 @@ function clearMessage(){
   for(let temp of error){
     temp.innerText='';
   }
-  success='';
+  success.innerText='';
 }
 function emailIsValid(email){
   let pattern = /\S+@\S+\.\S+/;
