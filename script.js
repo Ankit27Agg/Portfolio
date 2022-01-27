@@ -41,6 +41,11 @@ function validateForm(){
     success[0].innerText = "Success";
     console.log(success.innerText)
     console.log(errorFlag)
+    namee.value='';
+    // console.log(namee)
+    // console.log(namee.value)
+  email.value='';
+  message.value='';
   }
 }
 
@@ -49,6 +54,9 @@ function clearMessage(){
     temp.innerText='';
   }
   success.innerText='';
+  // namee.value.innerText='';
+  // email.value.innerText='';
+  // message.value.innerText='';
 }
 function emailIsValid(email){
   let pattern = /\S+@\S+\.\S+/;
